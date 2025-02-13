@@ -1,0 +1,27 @@
+body{
+    background-image: url(buildings2.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+
+.images{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+
+.moving-image {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    animation: move-across 5s linear infinite;
+}
+
+@keyframes move-across {
+    from {
+        left: -200px; /* Starts offscreen to the left */
+    }
+    to {
+        left: 100vw; /* Moves offscreen to the right */
+    }
+}
