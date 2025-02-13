@@ -4,10 +4,40 @@ body{
     background-repeat: no-repeat;
 }
 
-.images{
+.container{
+    position: relative;
+}
+
+.image1{
     position: absolute;
     left: 500px;
-    top: 400px;
+    top: 330px;
+}
+
+.image2{
+    position: absolute;
+    left: 1000px;
+    top: 380px;
+}
+
+.image3{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.image3 img {
+    width: 250px;
+    height: auto;
+}
+
+.image4{
+    position: absolute;
+    left: 130px;
+    top: 200px;
+}
+.image4 img {
+    width: 200px;
+    height: auto;
 }
 
 .moving-image {
